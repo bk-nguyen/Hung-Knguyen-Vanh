@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1773629003.41753 "c:/Users/KNguyen/OneDrive/Máy tính/ManHinh/CPP&PY/DUAN/NAH/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773629014.44257 0
-  "c:/Users/KNguyen/OneDrive/Máy tính/ManHinh/CPP&PY/DUAN/NAH/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773629001 14791 63df8d4f4a19fbc738e6870a9b93f404 ""
+["pdflatex"] 1773630671.68889 "c:/Users/KNguyen/OneDrive/Máy tính/ManHinh/CPP&PY/DUAN/NAH/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773630674.87637 0
+  "c:/Users/KNguyen/OneDrive/Máy tính/ManHinh/CPP&PY/DUAN/NAH/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773630669 14816 3a8242fb92e56dba1c44588b040fe9cd ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1773036558 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1773036558 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1773036558 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -254,10 +254,10 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1773043082 5618266 85c272d09f6df628d158699e137c8ff6 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1773043197 3636408 63c247e223b95eea6380f8a705ab1f2d ""
   "c:/texlive/2026/texmf.cnf" 1773043062 713 e69b156964470283e0530f5060668171 ""
-  "lythuyetdothi.aux" 1773629013 6316 39f221f5466a8c55ce92d4ead17913b1 "pdflatex"
-  "lythuyetdothi.nav" 1773629013 3201 a1a026fdd5660661d36ee400b1153225 "pdflatex"
-  "lythuyetdothi.tex" 1773629001 14791 63df8d4f4a19fbc738e6870a9b93f404 ""
-  "lythuyetdothi.vrb" 1773629013 394 520d5c878f812baac073b8db4f3edff7 "pdflatex"
+  "lythuyetdothi.aux" 1773630674 6775 831db6722633ab16e03c989807804c9b "pdflatex"
+  "lythuyetdothi.nav" 1773630674 3360 9cb6aea21197542596c151453207b927 "pdflatex"
+  "lythuyetdothi.tex" 1773630669 14816 3a8242fb92e56dba1c44588b040fe9cd ""
+  "lythuyetdothi.vrb" 1773630674 394 520d5c878f812baac073b8db4f3edff7 "pdflatex"
   "vanh.jpg" 1773628042 125188 46c82284f02ce4cc4368fd641ad7d3a2 ""
   (generated)
   "lythuyetdothi.aux"

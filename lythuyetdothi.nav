@@ -58,10 +58,13 @@
 \headcommand {\sectionentry {6}{Ứng dụng}{21}{Ứng dụng}{0}}
 \headcommand {\slideentry {6}{0}{1}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {6}{0}{2}{22/22}{}{0}}
+\headcommand {\beamer@sectionpages {21}{21}}
+\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\sectionentry {7}{LỜI CHÀO}{22}{LỜI CHÀO}{0}}
+\headcommand {\slideentry {7}{0}{1}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
 \headcommand {\beamer@partpages {1}{22}}
-\headcommand {\beamer@subsectionpages {21}{22}}
-\headcommand {\beamer@sectionpages {21}{22}}
+\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\beamer@sectionpages {22}{22}}
 \headcommand {\beamer@documentpages {22}}
 \headcommand {\gdef \inserttotalframenumber {22}}
