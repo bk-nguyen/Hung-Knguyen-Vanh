@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Mở đầu}{2}{0}{1}
+\beamer@sectionintoc {2}{Ví dụ thực tế}{3}{0}{2}
+\beamer@sectionintoc {3}{Khái niệm cơ bản}{4}{0}{3}
+\beamer@sectionintoc {4}{Đường đi}{7}{0}{4}
+\beamer@sectionintoc {5}{Cài đặt C++}{11}{0}{5}
+\beamer@sectionintoc {6}{Ứng dụng}{21}{0}{6}

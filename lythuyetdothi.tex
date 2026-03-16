@@ -1,11 +1,14 @@
 \documentclass{beamer}
+\usepackage{bookmark}
 
+\usepackage[T5]{fontenc}
 \usepackage[utf8]{vietnam}
+\usepackage{lmodern} % Fix font shape warning
 \usepackage{amsmath}
 \usepackage{tikz}
-\usepackage{tcolorbox} 
-\usetikzlibrary{positioning}
-
+\usetikzlibrary{positioning,arrows.meta}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
 \usetheme{Madrid}
 
 % --- Định nghĩa màu sắc ---
@@ -14,7 +17,7 @@
 \definecolor{footred}{RGB}{255,50,50}
 \definecolor{mainred}{RGB}{220,20,60} % Màu đỏ cho nút được chọn
 
-% --- Cấu hình Footer (Bo tròn & Thông tin động) ---
+% --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
 \setbeamertemplate{footline}{
   \leavevmode%
   \hbox{%
@@ -42,8 +45,36 @@
 \begin{document}
 
 % --- Trang tiêu đề ---
-\frame{\titlepage}
+{
+\usebackgroundtemplate{
+\includegraphics[width=\paperwidth,height=\paperheight]{vanh.jpg}
+}
 
+\begin{frame}
+\vspace{4cm}
+\centering
+
+\vspace{1.5cm}
+
+\begin{tcolorbox}[
+colback=white,
+colframe=mainblue,
+width=1\textwidth,
+arc=10pt,
+boxrule=2pt
+]
+
+\centering
+\Huge \textbf{LÝ THUYẾT ĐỒ THỊ}
+
+\vspace{0.4cm}
+
+\Large knguyen -- vhung -- vanh
+
+\end{tcolorbox}
+
+\end{frame}
+}
 % --- Phần 1 ---
 \section{Mở đầu}
 \begin{frame}{Đồ thị là gì?}
@@ -73,9 +104,10 @@
         \begin{tikzpicture}[
             node_style/.style={circle, draw, fill=mainblue!20, minimum size=7mm, inner sep=1pt, font=\small},
             edge_style/.style={draw, thick, gray!60},
-            path_style/.style={draw, pathgreen, ultra thick, -{Stealth[length=3mm, width=2mm]}}, % Mũi tên đẹp hơn
+            path_style/.style={draw, green!70!black, ultra thick, -{Stealth[length=3mm, width=2mm]}},
             start_node/.style={fill=red!60, text=white},
-            end_node/.style={fill=green!60, text=white}
+            end_node/.style={fill=green!60, text=white},
+            pathgreen/.style={}
         ]
             % Các đỉnh
             \node[node_style, start_node] (A) at (0,0) {A};
@@ -93,9 +125,9 @@
             \draw[edge_style] (Z) -- (B) node[midway, above] {\tiny 3};
             
             % Đường đi ngắn nhất (ví dụ)
-            \draw[path_style] (A) to node[midway, above left, pos=0.3, pathgreen]{\tiny 3} (Y);
-            \draw[path_style] (Y) to node[midway, below right, pos=0.7, pathgreen]{\tiny 4} (Z);
-            \draw[path_style] (Z) to node[midway, above, pos=0.5, pathgreen]{\tiny 3} (B);
+            \draw[path_style] (A) to node[midway, above left, pos=0.3]{\tiny 3} (Y);
+            \draw[path_style] (Y) to node[midway, below right, pos=0.7]{\tiny 4} (Z);
+            \draw[path_style] (Z) to node[midway, above, pos=0.5]{\tiny 3} (B);
 
         \end{tikzpicture}
     \end{column}
@@ -138,13 +170,9 @@
 % SLIDE 3
 \begin{frame}{Thành phần của đồ thị}
 
-\begin{itemize}
 \begin{center} 
 \textbf{VÍ DỤ VỀ ĐƯỜNG ĐI CỦA MỘT ĐỒ THỊ}
 \end{center}
-
-
-\end{itemize}
 
 \end{frame}
 
