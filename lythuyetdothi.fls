@@ -393,6 +393,11 @@ INPUT ./lythuyetdothi.nav
 INPUT ./lythuyetdothi.nav
 INPUT lythuyetdothi.nav
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmss8.tfm
+INPUT ./intro.tex
+INPUT ./intro.tex
+INPUT ./intro.tex
+INPUT ./intro.tex
+INPUT intro.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmss17.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmssbx10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmss12.tfm
@@ -404,6 +409,9 @@ INPUT ./vanh.jpg
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmss8.tfm
 INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-t5.enc
+INPUT ./modau.tex
+INPUT ./modau.tex
+INPUT modau.tex
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -444,9 +452,15 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmsso8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmsso8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT ./viduthucte.tex
+INPUT ./viduthucte.tex
+INPUT viduthucte.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmssbx10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/lm/t5-lmss10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT ./lythuyetcoban.tex
+INPUT ./lythuyetcoban.tex
+INPUT lythuyetcoban.tex
 OUTPUT lythuyetdothi.vrb
 INPUT ./lythuyetdothi.vrb
 INPUT ./lythuyetdothi.vrb
