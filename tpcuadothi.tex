@@ -1,15 +1,135 @@
+\section{Thành phần của đồ thị}
 
-\begin{frame}{Thành phần của đồ thị}
+%======================
+% Slide 1: Đỉnh
+%======================
+\begin{frame}{Đỉnh (Vertex)}
+\begin{tcolorbox}[colback=blue!5,colframe=mainblue,title=Khái niệm]
+Đỉnh (vertex) là các điểm cơ bản cấu tạo nên đồ thị.  
+Mỗi đỉnh thường biểu diễn một đối tượng.
+\end{tcolorbox}
+
+\vspace{0.5cm}
+
 \begin{itemize}
-
-\item Đỉnh (Vertices)
-
-\item Cạnh (Edges)
-
-\item Bậc của đỉnh
-
-\item Đường đi (Path)
-
+\item Ký hiệu: $V = \{A, B, C, D\}$
+\item Ví dụ: mỗi đỉnh là một thành phố, người, hoặc máy tính
 \end{itemize}
+
+\vspace{0.5cm}
+
+\centering
+\begin{tikzpicture}[node distance=2cm]
+\node[node_base] (A) {A};
+\node[node_base, right of=A] (B) {B};
+\node[node_base, below of=A] (C) {C};
+\node[node_base, below of=B] (D) {D};
+\end{tikzpicture}
+
+\end{frame}
+
+%======================
+% Slide 2: Cạnh
+%======================
+%======================
+% Slide 2: Cạnh (nâng cấp)
+%======================
+\begin{frame}{Cạnh (Edge)}
+\begin{tcolorbox}[colback=blue!5,colframe=mainblue,title=Khái niệm]
+Cạnh (edge) là đoạn nối giữa hai đỉnh, biểu diễn mối quan hệ giữa chúng.
+\end{tcolorbox}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+\item Đồ thị vô hướng: cạnh không có chiều
+\item Đồ thị có hướng: cạnh có mũi tên
+\item Đa đồ thị: có nhiều cạnh giữa 2 đỉnh
+\end{itemize}
+
+\vspace{0.5cm}
+
+\centering
+\begin{tikzpicture}[node distance=2.2cm]
+
+% --- Vô hướng ---
+\node[node_base] (A1) {A};
+\node[node_base, right of=A1] (B1) {B};
+\draw[-, thick] (A1) -- (B1);
+
+\node[below=0.2cm of A1] {\small Vô hướng};
+
+% --- Có hướng ---
+\node[node_base, right=3cm of B1] (A2) {A};
+\node[node_base, right of=A2] (B2) {B};
+\draw[->, thick] (A2) -- (B2);
+
+\node[below=0.2cm of A2] {\small Có hướng};
+\end{tikzpicture}
+
+\end{frame}
+%======================
+% Slide 3: Bậc của đỉnh
+%======================
+\begin{frame}{Bậc của đỉnh (Degree)}
+\begin{tcolorbox}[colback=blue!5,colframe=mainblue,title=Khái niệm]
+Bậc của một đỉnh là số cạnh nối với đỉnh đó.
+\\Với $\deg(\cdot)$ là hàm tính bậc của đỉnh, ta có:
+\end{tcolorbox}
+
+\vspace{0.2cm}
+
+\begin{itemize}
+\item $\deg(A) = 2$
+\item $\deg(B) = 3$
+\item $\deg(C) = 2$
+\item $\deg(D) = 1$
+\end{itemize}
+
+\vspace{0cm}
+
+\centering
+\begin{tikzpicture}[node distance=2cm]
+\node[node_base] (A) {A};
+\node[node_base, right of=A] (B) {B};
+\node[node_base, below of=A] (C) {C};
+\node[node_base, below of=B] (D) {D};
+
+\draw[-] (A) -- (B);
+\draw[-] (A) -- (C);
+\draw[-] (B) -- (C);
+\draw[-] (B) -- (D);
+\end{tikzpicture}
+
+\end{frame}
+
+%======================
+% Slide 4: Đường đi
+%======================
+\begin{frame}{Đường đi (Path)}
+\begin{tcolorbox}[colback=blue!5,colframe=mainblue,title=Khái niệm]
+Đường đi là dãy các đỉnh mà giữa các đỉnh liên tiếp đều có cạnh nối.
+\end{tcolorbox}
+
+\vspace{0.5cm}
+
+\begin{itemize}
+\item Ví dụ: $A \rightarrow B \rightarrow C \rightarrow D$
+\item Độ dài đường đi = số cạnh đi qua
+\end{itemize}
+
+\vspace{0.5cm}
+
+\centering
+\begin{tikzpicture}[node distance=2cm]
+\node[node_base, node_current] (A) {A};
+\node[node_base, right of=A, node_current] (B) {B};
+\node[node_base, right of=B, node_current] (C) {C};
+\node[node_base, right of=C, node_current] (D) {D};
+
+\draw[->, thick] (A) -- (B);
+\draw[->, thick] (B) -- (C);
+\draw[->, thick] (C) -- (D);
+\end{tikzpicture}
 
 \end{frame}

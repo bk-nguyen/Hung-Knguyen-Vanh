@@ -1,14 +1,14 @@
-\frametitle{Cài đặt BFS với C++}
+\frametitle{Mã nguồn BFS (C++)}
 \begin{verbatim}
-void BFS(int start) {
+void bfs(int start_node) {
     queue<int> q;
-    q.push(start);
-    visited[start] = true;
-    while(!q.empty()){
+    q.push(start_node);
+    visited[start_node] = true;
+    while (!q.empty()) {
         int u = q.front(); q.pop();
         cout << u << " ";
-        for(int v : adj[u]){
-            if(!visited[v]){
+        for (int v : adj[u]) {
+            if (!visited[v]) {
                 visited[v] = true;
                 q.push(v);
             }

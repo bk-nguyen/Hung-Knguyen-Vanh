@@ -1,20 +1,67 @@
 \documentclass{beamer}
 \usepackage{bookmark}
 \usepackage[T5]{fontenc}
-\usepackage[utf8]{vietnam}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usetheme{Madrid}
 \usepackage{lmodern} % Fix font shape warning
 \usepackage{amsmath}
 \usepackage{tikz}
-\usetikzlibrary{positioning,arrows.meta}
+\usetikzlibrary{arrows.meta, positioning, shadows}
 \usepackage{tcolorbox}
 \usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
 \usetheme{Madrid}
 
+
+% ===== TikZ styles =====
+
+\tikzset{
+node_base/.style={
+circle,
+draw,
+minimum size=8mm,
+font=\bfseries,
+thick,
+fill=white
+},
+node_current/.style={
+fill=orange!80,
+text=white
+},
+node_visited/.style={
+fill=green!40
+},
+stack_box/.style={
+rectangle,
+draw,
+minimum width=1.5cm,
+minimum height=0.6cm,
+fill=blue!10
+}
+}
+
+%========================
+
+% ===== C++ style =====
+\lstset{
+language=C++,
+basicstyle=\ttfamily\scriptsize,
+keywordstyle=\color{blue}\bfseries,
+commentstyle=\color{green!50!black},
+stringstyle=\color{red},
+backgroundcolor=\color{gray!5},
+frame=single,
+breaklines=true
+}
+%========================
+
 % --- Định nghĩa màu sắc ---
-\definecolor{mainblue}{RGB}{0, 32, 96}
-\definecolor{footgray}{RGB}{108,113,197}
-\definecolor{footred}{RGB}{255,50,50}
-\definecolor{mainred}{RGB}{220,20,60} % Màu đỏ cho nút được chọn
+\definecolor{mainblue}{RGB}{20, 2, 186}
+\definecolor{footgray}{RGB}{15, 0, 143}
+\definecolor{footred}{RGB}{24, 2, 150}
+\definecolor{mainred}{RGB}{28, 21, 89} % Màu đỏ cho nút được chọn
 
 % --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
 \setbeamertemplate{footline}{
@@ -77,6 +124,9 @@
 
 % Slide 1: Nguyên lý
 \input{bfs.tex}
+
+%test việt hưng
+%=================
 
 % --- Phần 4 ---
 \input{ungdung.tex}

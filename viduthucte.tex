@@ -1,46 +1,56 @@
-\section{Ví dụ thực tế}
-\begin{frame}{Google Maps: Tìm đường đi ngắn nhất}
+\begin{frame}{Google Maps – Tìm đường đi ngắn nhất}
+
 \begin{columns}
-    \begin{column}{0.5\textwidth}
-        \textbf{Bài toán:} Tìm đường đi ngắn nhất từ \textbf{Điểm A} đến \textbf{Điểm B}.
-        \begin{itemize}
-            \item Các giao lộ $\rightarrow$ Đỉnh (Vertices)
-            \item Các con đường $\rightarrow$ Cạnh (Edges)
-            \item Thời gian/Khoảng cách $\rightarrow$ Trọng số (Weights)
-        \end{itemize}
-        Thuật toán Dijkstra thường được sử dụng cho bài toán này.
-    \end{column}
-    \begin{column}{0.5\textwidth}
-        \centering
-        \begin{tikzpicture}[
-            node_style/.style={circle, draw, fill=mainblue!20, minimum size=7mm, inner sep=1pt, font=\small},
-            edge_style/.style={draw, thick, gray!60},
-            path_style/.style={draw, green!70!black, ultra thick, -{Stealth[length=3mm, width=2mm]}},
-            start_node/.style={fill=red!60, text=white},
-            end_node/.style={fill=green!60, text=white},
-            pathgreen/.style={}
-        ]
-            % Các đỉnh
-            \node[node_style, start_node] (A) at (0,0) {A};
-            \node[node_style] (X) at (1.5,1) {X};
-            \node[node_style] (Y) at (1.5,-1) {Y};
-            \node[node_style] (Z) at (3,0.5) {Z};
-            \node[node_style, end_node] (B) at (4,0) {B};
 
-            % Các cạnh
-            \draw[edge_style] (A) -- (X) node[midway, above] {\tiny 5};
-            \draw[edge_style] (A) -- (Y) node[midway, below] {\tiny 3};
-            \draw[edge_style] (X) -- (Z) node[midway, above] {\tiny 2};
-            \draw[edge_style] (Y) -- (Z) node[midway, below] {\tiny 4};
-            \draw[edge_style] (Y) -- (B) node[midway, below] {\tiny 6};
-            \draw[edge_style] (Z) -- (B) node[midway, above] {\tiny 3};
-            
-            % Đường đi ngắn nhất (ví dụ)
-            \draw[path_style] (A) to node[midway, above left, pos=0.3]{\tiny 3} (Y);
-            \draw[path_style] (Y) to node[midway, below right, pos=0.7]{\tiny 4} (Z);
-            \draw[path_style] (Z) to node[midway, above, pos=0.5]{\tiny 3} (B);
+%================ LEFT =================
+\column{0.55\textwidth}
 
-        \end{tikzpicture}
-    \end{column}
+\begin{tcolorbox}[colback=blue!5,colframe=mainblue,title=Bài toán]
+Tìm đường đi ngắn nhất từ \textbf{A} đến \textbf{B}
+\end{tcolorbox}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+\item Các giao lộ $\rightarrow$ \textbf{Đỉnh (Vertices)}
+\item Các con đường $\rightarrow$ \textbf{Cạnh (Edges)}
+\item Thời gian / Khoảng cách $\rightarrow$ \textbf{Trọng số}
+\end{itemize}
+
+\vspace{0.2cm}
+
+\begin{tcolorbox}[colback=green!5,colframe=green!50!black,title=Thuật toán gợi ý của Hưng:]
+Sử dụng \textbf{Dijkstra} để tìm đường đi ngắn nhất
+\end{tcolorbox}
+
+%================ RIGHT =================
+\column{0.45\textwidth}
+
+\centering
+\begin{tikzpicture}[node distance=2cm, scale=0.9, every node/.style={transform shape}]
+
+% Nodes
+\node[node_base, fill=red!60] (A) {A};
+\node[node_base, above right of=A] (X) {X};
+\node[node_base, right of=X] (Z) {Z};
+\node[node_base, below right of=A] (Y) {Y};
+\node[node_base, right of=Y, fill=green!60] (B) {B};
+
+% Edges
+\draw[-, thick] (A) -- node[above] {5} (X);
+\draw[-, thick] (X) -- node[above] {2} (Z);
+\draw[-, thick] (A) -- node[below] {3} (Y);
+\draw[-, thick] (Y) -- node[below] {6} (B);
+\draw[-, thick] (Z) -- node[right] {3} (B);
+\draw[-, thick] (Y) -- node[right] {4} (Z);
+
+% Shortest path highlight
+\draw[->, very thick, green!60!black] (A) -- (Y);
+\draw[->, very thick, green!60!black] (Y) -- (Z);
+\draw[->, very thick, green!60!black] (Z) -- (B);
+
+\end{tikzpicture}
+
 \end{columns}
+
 \end{frame}
