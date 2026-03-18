@@ -1,0 +1,137 @@
+\documentclass{beamer}
+\usepackage{bookmark}
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usetheme{Madrid}
+\usepackage{lmodern} % Fix font shape warning
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shadows}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usetheme{Madrid}
+
+
+% ===== TikZ styles =====
+
+\tikzset{
+node_base/.style={
+circle,
+draw,
+minimum size=8mm,
+font=\bfseries,
+thick,
+fill=white
+},
+node_current/.style={
+fill=orange!80,
+text=white
+},
+node_visited/.style={
+fill=green!40
+},
+stack_box/.style={
+rectangle,
+draw,
+minimum width=1.5cm,
+minimum height=0.6cm,
+fill=blue!10
+}
+}
+
+%========================
+
+% ===== C++ style =====
+\lstset{
+language=C++,
+basicstyle=\ttfamily\scriptsize,
+keywordstyle=\color{blue}\bfseries,
+commentstyle=\color{green!50!black},
+stringstyle=\color{red},
+backgroundcolor=\color{gray!5},
+frame=single,
+breaklines=true
+}
+%========================
+
+% --- Định nghĩa màu sắc ---
+\definecolor{mainblue}{RGB}{20, 2, 186}
+\definecolor{footgray}{RGB}{15, 0, 143}
+\definecolor{footred}{RGB}{24, 2, 150}
+\definecolor{mainred}{RGB}{28, 21, 89} % Màu đỏ cho nút được chọn
+
+% --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+    \begin{tcolorbox}[colback=footgray, colframe=footgray, sharp corners=south, rounded corners=north, size=small, width=.3333\paperwidth, height=1.2em, halign=center, valign=center, coltext=white, boxrule=0pt]
+        \tiny Phần \insertsectionnumber
+    \end{tcolorbox}%
+    \begin{tcolorbox}[colback=mainblue, colframe=mainblue, sharp corners=south, rounded corners=north, size=small, width=.3333\paperwidth, height=1.2em, halign=center, valign=center, coltext=white, boxrule=0pt]
+        \tiny \insertsection
+    \end{tcolorbox}%
+    \begin{tcolorbox}[colback=footred, colframe=footred, sharp corners=south, rounded corners=north, size=small, width=.3333\paperwidth, height=1.2em, halign=center, valign=center, coltext=white, boxrule=0pt]
+        \tiny Trang \insertframenumber/\inserttotalframenumber
+    \end{tcolorbox}%
+  }%
+  \vskip0pt%
+}
+
+% Bỏ các navigation symbols thừa
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+
+% --- Trang tiêu đề ---
+\input{intro}
+%=================
+
+% --- Phần 1 ---
+\input{modau.tex}
+%=================
+
+% --- Phần 2 ---
+\input{viduthucte.tex}
+%=================
+
+% --- Phần 3 ---
+\input{lythuyetcoban.tex}
+%==============
+
+% --- Phần 4 ----
+\input{tpcuadothi.tex}
+%=======================
+
+% --- Phần 3: Đường đi ---
+\input{duongdi.tex}
+%==================
+
+% --- Phần 4: Biểu diễn đồ thị ---
+\input{caidatcpp-danhsachke.tex}
+%==================
+
+%----------------
+\input{danhsachcanh.tex}
+am gay
+
+%=============
+\input{matranke.tex}
+
+\input{dfs.tex}
+% --- Thêm phần thuật toán BFS ---
+
+% Slide 1: Nguyên lý
+\input{bfs.tex}
+
+%test việt hưng
+%=================
+
+% --- Phần 4 ---
+\input{ungdung.tex}
+%==================
+\input{loichao.tex}
+
+\end{document}
