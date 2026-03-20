@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1773988982.39125 "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773988986.69353 0
+["pdflatex"] 1773989443.82044 "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773989448.7242 0
   "baitapbfsb1-hung.tex" 1773988978 6273 75bf06e5d379fd044df0efcf658dd75c ""
   "bfs.tex" 1773985281 3966 35d5920614cd3f7b9f21d642c903e3de ""
-  "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773988052 3808 60b60292b90b3b141da1111b92dcfe73 ""
+  "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773989309 3826 f2beaa7ecef963a64d138ba2b27a0177 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1773036558 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1773036558 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1773036558 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -296,15 +296,16 @@
   "intro.tex" 1773985281 409 c4380ac68d427bd0069c268549db8184 ""
   "loichao.tex" 1773985281 89 009f0685b988e84307b4ef24488adc9b ""
   "lythuyetcoban.tex" 1773985281 401 833f573541d75ca6028ebff385d3000b ""
-  "lythuyetdothi.aux" 1773988986 12036 ded3018a4ac961285d69d8179f8f6252 "pdflatex"
-  "lythuyetdothi.nav" 1773988986 6378 e953c791538fe3461e87a3660b159a66 "pdflatex"
-  "lythuyetdothi.tex" 1773988052 3808 60b60292b90b3b141da1111b92dcfe73 ""
-  "lythuyetdothi.vrb" 1773988986 303 394cadbba2ca4f287f85327531218169 "pdflatex"
+  "lythuyetdothi.aux" 1773989448 13068 0ea10eee35edf4c06613c927aed07757 "pdflatex"
+  "lythuyetdothi.nav" 1773989448 7122 ffb6628a2851fb2b0dfa79ec4cdcb452 "pdflatex"
+  "lythuyetdothi.tex" 1773989309 3826 f2beaa7ecef963a64d138ba2b27a0177 ""
+  "lythuyetdothi.vrb" 1773989448 384 5ec02b3e194c19dd0204fbb9aab2ecfa "pdflatex"
   "matranke.tex" 1773985281 1341 107b9fc2352029092ef8f92b4cfe0698 ""
   "modau.tex" 1773985281 252 f777055cad8aa64bb960dcba58031353 ""
   "tpcuadothi.tex" 1773985281 3488 85a8f437b43f4afd187978de9353e520 ""
   "ungdung.tex" 1773985281 295 2254617ba6b8641e400ffd65883f225f ""
   "vanh.jpg" 1773985281 125188 46c82284f02ce4cc4368fd641ad7d3a2 ""
+  "vanh.tex" 1773989439 2876 6a8bf970434c72c19d419dbf223f08d8 ""
   "viduthucte.tex" 1773985281 1691 72e26644a6b776862f47550f02bb69ea ""
   (generated)
   "lythuyetdothi.aux"

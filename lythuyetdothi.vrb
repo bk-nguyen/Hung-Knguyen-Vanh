@@ -1,20 +1,28 @@
-\frametitle{Bài 2 - Code (3/3)}
+\frametitle{Bài 4 - Code}
 
 \begin{lstlisting}
 int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    int n;
+    cin>>n;
 
-    long long n,m,p,q,s,t;
-    cin>>n>>m>>p>>q>>s>>t;
+    vector<int> deg(n+1,0);
 
-    for(int i=1;i<=m;i++){
-        long long x,y;
-        cin>>x>>y;
-        mtk[x][y]=1;
+    for(int i=1;i<n;i++){
+        int u,v;
+        cin>>u>>v;
+        deg[u]++;
+        deg[v]++;
+    }
+    if(n==1){
+        cout<<1;
+        return 0;
+    }
+    int cnt=0;
+    for(int i=1;i<=n;i++){
+        if(deg[i]==1) cnt++;
     }
 
-    bfs(p,q,s,t,n);
+    cout<<cnt;
 }
 \end{lstlisting}
 
