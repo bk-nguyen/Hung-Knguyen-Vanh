@@ -12,8 +12,24 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{xcolor}
-\usetheme{Madrid}
-
+\usetheme{moloch}
+\tcbuselibrary{skins, breakable}
+% Box style chung
+\tcbset{
+    mybox/.style={
+        colback=gray!10,
+        colframe=gray!80,
+        width=\textwidth,
+        arc=8mm,
+        boxrule=0pt,
+        enhanced,
+        drop shadow,
+        left=6mm,
+        right=6mm,
+        top=3mm,
+        bottom=3mm
+    }
+}
 
 % ===== TikZ styles =====
 
@@ -58,10 +74,10 @@ breaklines=true
 %========================
 
 % --- Định nghĩa màu sắc ---
-\definecolor{mainblue}{RGB}{20, 2, 186}
-\definecolor{footgray}{RGB}{15, 0, 143}
-\definecolor{footred}{RGB}{24, 2, 150}
-\definecolor{mainred}{RGB}{28, 21, 89} % Màu đỏ cho nút được chọn
+\definecolor{mainblue}{RGB}{120, 90, 255}   % tím sáng (primary)
+\definecolor{footgray}{RGB}{40, 40, 50}     % nền footer (xám đậm)
+\definecolor{footred}{RGB}{255, 120, 180}   % hồng accent
+\definecolor{mainred}{RGB}{200, 80, 255}    % tím hồng (highlight)
 
 % --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
 \setbeamertemplate{footline}{
@@ -130,6 +146,8 @@ breaklines=true
 
 % --- Phần 4 ---
 \input{ungdung.tex}
+
+\input{baitapbfsb1-hung.tex}
 %==================
 \input{loichao.tex}
 
