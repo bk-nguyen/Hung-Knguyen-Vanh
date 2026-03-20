@@ -598,6 +598,9 @@ OUTPUT lythuyetdothi.vrb
 INPUT ./lythuyetdothi.vrb
 INPUT ./lythuyetdothi.vrb
 INPUT lythuyetdothi.vrb
+INPUT ./tree.tex
+INPUT ./tree.tex
+INPUT tree.tex
 INPUT ./ungdung.tex
 INPUT ./ungdung.tex
 INPUT ungdung.tex

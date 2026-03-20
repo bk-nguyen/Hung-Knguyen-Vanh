@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1310,11 +1310,11 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
  (./lythuyetdothi.vrb) [35
 
-]) (./ungdung.tex [36
+]) (./tree.tex [36
 
 ] [37
 
-]) (./baitapbfsb1-hung.tex [38
+] [38
 
 ] [39
 
@@ -1324,27 +1324,11 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] [42
 
-]
-\openout4 = `lythuyetdothi.vrb'.
+]) (./ungdung.tex [43
 
- (./lythuyetdothi.vrb
-LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 10.
-)
-Overfull \vbox (4.25722pt too high) detected at line 89
- []
+] [44
 
-[43
-
-]
-\openout4 = `lythuyetdothi.vrb'.
-
- (./lythuyetdothi.vrb) [44
-
-]
-\openout4 = `lythuyetdothi.vrb'.
-
- (./lythuyetdothi.vrb) [45
+]) (./baitapbfsb1-hung.tex [45
 
 ] [46
 
@@ -1357,7 +1341,14 @@ Overfull \vbox (4.25722pt too high) detected at line 89
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [50
+ (./lythuyetdothi.vrb
+LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 10.
+)
+Overfull \vbox (4.25722pt too high) detected at line 89
+ []
+
+[50
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1369,11 +1360,34 @@ Overfull \vbox (4.25722pt too high) detected at line 89
 
  (./lythuyetdothi.vrb) [52
 
-]) (./vanh.tex [53
+] [53
 
 ] [54
 
 ] [55
+
+] [56
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [57
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [58
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [59
+
+]) (./vanh.tex [60
+
+] [61
+
+] [62
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1382,13 +1396,13 @@ Overfull \vbox (4.25722pt too high) detected at line 89
 Overfull \vbox (4.94035pt too high) detected at line 83
  []
 
-[56
+[63
 
-] [57
+] [64
 
-] [58
+] [65
 
-] [59
+] [66
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1397,11 +1411,11 @@ Overfull \vbox (4.94035pt too high) detected at line 83
 Overfull \vbox (4.94035pt too high) detected at line 170
  []
 
-[60
+[67
 
-]) (./loichao.tex [61
+]) (./loichao.tex [68
 
-] [62
+] [69
 
 ])
 \tf@nav=\write5
@@ -1420,18 +1434,18 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 34654 strings out of 467525
- 706342 string characters out of 5423210
+ 34737 strings out of 467525
+ 707489 string characters out of 5423210
  1424658 words of memory out of 5000000
- 62689 multiletter control sequences out of 15000+600000
+ 62754 multiletter control sequences out of 15000+600000
  770164 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,444b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on lythuyetdothi.pdf (62 pages, 507767 bytes).
+Output written on lythuyetdothi.pdf (69 pages, 516758 bytes).
 PDF statistics:
- 657 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 135 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,126 @@
+\section{CÂY}
+\begin{frame}{Cây (Tree)}
+\textbf{Định nghĩa}
+
+\vspace{0.4cm}
+
+\begin{itemize}
+\item Cây là một đồ thị:
+\begin{itemize}
+\item Liên thông
+\item Không có chu trình
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Nếu có $n$ đỉnh thì có đúng $n-1$ cạnh
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{Đặc điểm quan trọng:}
+\begin{itemize}
+\item Giữa 2 đỉnh bất kỳ chỉ có \textbf{1 đường đi duy nhất}
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Thuật ngữ trong cây}
+
+\begin{itemize}
+\item \textbf{Root (gốc):} đỉnh bắt đầu (thường là 1)
+\item \textbf{Parent (cha):} đỉnh phía trên
+\item \textbf{Child (con):} đỉnh phía dưới
+\item \textbf{Leaf (lá):} đỉnh có bậc = 1
+\item \textbf{Depth:} khoảng cách từ gốc
+\item \textbf{Height:} độ sâu lớn nhất của cây
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Biểu diễn cây}
+
+\textbf{Danh sách kề (Adjacency List)}
+
+\vspace{0.4cm}
+
+\begin{itemize}
+\item Giống đồ thị
+\item Mỗi đỉnh lưu danh sách các đỉnh kề
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{Ví dụ:}
+\begin{itemize}
+\item $1: 2, 3$
+\item $2: 1, 4$
+\item $3: 1$
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Duyệt cây}
+
+\textbf{Hai cách chính:}
+
+\vspace{0.4cm}
+
+\begin{itemize}
+\item \textbf{DFS (Depth First Search)}
+\begin{itemize}
+\item Đi sâu trước
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item \textbf{BFS (Breadth First Search)}
+\begin{itemize}
+\item Đi theo từng lớp
+\end{itemize}
+
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{Ứng dụng:}
+\begin{itemize}
+\item Tính khoảng cách
+\item Tìm đường đi
+\item Xử lý cây
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Tính chất của cây}
+
+\begin{itemize}
+\item $n$ đỉnh $\Rightarrow$ $n-1$ cạnh
+\item Không có chu trình
+\item Luôn liên thông
+\item Có ít nhất 2 đỉnh lá (n > 1)
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{Hệ quả:}
+\begin{itemize}
+\item Có thể dùng BFS/DFS để duyệt toàn bộ cây
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Các bài toán thường gặp}
+
+\begin{itemize}
+\item Tính độ sâu của các đỉnh
+\item Tìm đường kính của cây
+\item Đếm số lá
+\item Tìm cha, tổ tiên
+\item Khoảng cách giữa 2 đỉnh
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{Mức nâng cao:}
+\begin{itemize}
+\item LCA (Lowest Common Ancestor)
+\item Tree DP
+\end{itemize}
+
+\end{frame}
