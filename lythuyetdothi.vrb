@@ -1,18 +1,20 @@
-\frametitle{Mã nguồn BFS (C++)}
-\begin{verbatim}
-void bfs(int start_node) {
-    queue<int> q;
-    q.push(start_node);
-    visited[start_node] = true;
-    while (!q.empty()) {
-        int u = q.front(); q.pop();
-        cout << u << " ";
-        for (int v : adj[u]) {
-            if (!visited[v]) {
-                visited[v] = true;
-                q.push(v);
-            }
-        }
+\frametitle{Bài 2 - Code (3/3)}
+
+\begin{lstlisting}
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n,m,p,q,s,t;
+    cin>>n>>m>>p>>q>>s>>t;
+
+    for(int i=1;i<=m;i++){
+        long long x,y;
+        cin>>x>>y;
+        mtk[x][y]=1;
     }
+
+    bfs(p,q,s,t,n);
 }
-\end{verbatim}
+\end{lstlisting}
+

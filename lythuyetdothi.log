@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1006,7 +1006,7 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (c:/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for T5+lmss on input line 102.
+LaTeX Font Info:    Trying to load font information for T5+lmss on input line 103.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t5lmss.fd
 File: t5lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -1018,30 +1018,30 @@ Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 )
 \openout1 = `lythuyetdothi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 102.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 103.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 103.
  (c:/texlive/2026/texmf-dist/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 103.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1096,53 +1096,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 102.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 102.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 102.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 102.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 103.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T5/lmr/m/n on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 102.
+(Font)                  OT1/lmss/m/n --> T5/lmr/m/n on input line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 102.
+(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 102.
+(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T5/lmss/m/n on input line 102.
+(Font)                  OT1/lmss/m/n --> T5/lmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T5/lmss/m/n on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 102.
+(Font)                  OT1/lmss/bx/n --> T5/lmss/m/n on input line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T5/lmss/m/it on input line 102.
+(Font)                  OT1/lmr/m/it --> T5/lmss/m/it on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T5/lmss/m/it on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 102.
+(Font)                  OT1/lmr/bx/it --> T5/lmss/m/it on input line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 102.
+(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 102.
+(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 102.
+(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 102.
+(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T5/lmr/b/n on input line 102.
+(Font)                  OT1/lmss/b/n --> T5/lmr/b/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T5/lmss/b/n --> T5/lmss/b/n on input line 102.
+(Font)                  T5/lmss/b/n --> T5/lmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 102.
+(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 102.
+(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T5/lmtt/m/n --> T5/lmtt/b/n on input line 102.
+(Font)                  T5/lmtt/m/n --> T5/lmtt/b/n on input line 103.
  (c:/texlive/2026/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/texlive/2026/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1314,9 +1314,64 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] [37
 
-]) (./baitapbfsb1-hung.tex) (./loichao.tex [38
+]) (./baitapbfsb1-hung.tex [38
 
 ] [39
+
+] [40
+
+] [41
+
+] [42
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb
+LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 10.
+)
+Overfull \vbox (4.25722pt too high) detected at line 89
+ []
+
+[43
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [44
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [50
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [51
+
+]
+\openout4 = `lythuyetdothi.vrb'.
+
+ (./lythuyetdothi.vrb) [52
+
+]) (./loichao.tex [53
+
+] [54
 
 ])
 \tf@nav=\write5
@@ -1335,18 +1390,18 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33892 strings out of 467525
- 698182 string characters out of 5423210
- 1284658 words of memory out of 5000000
- 61995 multiletter control sequences out of 15000+600000
- 769166 words of font info for 104 fonts, out of 8000000 for 9000
+ 34549 strings out of 467525
+ 704899 string characters out of 5423210
+ 1424658 words of memory out of 5000000
+ 62607 multiletter control sequences out of 15000+600000
+ 769794 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,444b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on lythuyetdothi.pdf (39 pages, 395289 bytes).
+ 128i,16n,123p,444b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on lythuyetdothi.pdf (54 pages, 495461 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
