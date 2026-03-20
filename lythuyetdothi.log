@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  20 MAR 2026 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1006,7 +1006,7 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (c:/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for T5+lmss on input line 103.
+LaTeX Font Info:    Trying to load font information for T5+lmss on input line 106.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t5lmss.fd
 File: t5lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -1018,30 +1018,30 @@ Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 )
 \openout1 = `lythuyetdothi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 103.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 106.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 106.
  (c:/texlive/2026/texmf-dist/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    ... okay on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1096,53 +1096,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 103.
+Package hyperref Info: Link coloring OFF on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 103.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 103.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 103.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 103.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 106.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T5/lmr/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 103.
+(Font)                  OT1/lmss/m/n --> T5/lmr/m/n on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 103.
+(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 103.
+(Font)                  OT1/lmr/bx/n --> T5/lmss/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T5/lmss/m/n on input line 103.
+(Font)                  OT1/lmss/m/n --> T5/lmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T5/lmss/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 103.
+(Font)                  OT1/lmss/bx/n --> T5/lmss/m/n on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T5/lmss/m/it on input line 103.
+(Font)                  OT1/lmr/m/it --> T5/lmss/m/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T5/lmss/m/it on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 103.
+(Font)                  OT1/lmr/bx/it --> T5/lmss/m/it on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 103.
+(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 103.
+(Font)                  OT1/lmtt/m/n --> T5/lmtt/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 103.
+(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 103.
+(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T5/lmr/b/n on input line 103.
+(Font)                  OT1/lmss/b/n --> T5/lmr/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T5/lmss/b/n --> T5/lmss/b/n on input line 103.
+(Font)                  T5/lmss/b/n --> T5/lmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 103.
+(Font)                  T5/lmss/m/n --> T5/lmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 103.
+(Font)                  T5/lmss/m/it --> T5/lmss/b/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T5/lmtt/m/n --> T5/lmtt/b/n on input line 103.
+(Font)                  T5/lmtt/m/n --> T5/lmtt/b/n on input line 106.
  (c:/texlive/2026/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/texlive/2026/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1202,39 +1202,124 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <8> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <6> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 1.
+<bg.jpg, id=49, 1445.4pt x 813.0375pt>
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [2
 
-] [3
+ <./bg.jpg>]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 9.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [3
 
-{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]) (./viduthucte.tex [4
+{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]) (./viduthucte.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 56.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [4
 
-{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./lythuyetcoban.tex [5
+{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./lythuyetcoban.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [5
 
-] [6
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 12.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [6
 
-]) (./tpcuadothi.tex [7
+]) (./tpcuadothi.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [7
 
-] [8
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 29.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [8
 
-] [9
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 67.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [9
 
-] [10
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 101.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [10
 
-] [11
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 132.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [11
 
-]) (./duongdi.tex [12
+]) (./duongdi.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [12
 
-] [13
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 12.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [13
 
-] [14
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 24.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [14
 
-] [15
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 36.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [15
 
-] [16
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 48.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [16
 
-]) (./caidatcpp-danhsachke.tex [17
+]) (./caidatcpp-danhsachke.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [17
 
-] [18
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 23.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [18
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1243,23 +1328,53 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <6> not available
 LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 3.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [19
+))
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 40.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [19
 
-]) (./danhsachcanh.tex [20
+]) (./danhsachcanh.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 27.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [20
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [21
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 40.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [21
 
-]) (./matranke.tex [22
+]) (./matranke.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 20.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [22
 
 {c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [23
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 39.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [23
 
-]) (./dfs.tex [24
+]) (./dfs.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [24
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1278,65 +1393,189 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 17.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <9> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 17.
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 17.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [25
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [26
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 34.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [26
 
-]) (./bfs.tex [27
+]) (./bfs.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [27
 
-] [28
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 9.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [28
 
-] [29
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [29
 
-] [30
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [30
 
-] [31
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [31
 
-] [32
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [32
 
-] [33
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [33
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 68.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [34
+)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 68.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [34
 
 {c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [35
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 89.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [35
 
-]) (./tree.tex [36
+]) (./tree.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [36
 
-] [37
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 26.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [37
 
-] [38
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 38.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [38
 
-] [39
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 59.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [39
 
-] [40
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 90.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [40
 
-] [41
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 107.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [41
 
-] [42
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 126.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [42
 
-]) (./ungdung.tex [43
+]) (./ungdung.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 2.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [43
 
-] [44
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 10.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [44
 
-]) (./baitapbfsb1-hung.tex [45
+]) (./baitapbfsb1-hung.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 1.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [45
 
-] [46
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 12.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [46
 
-] [47
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 31.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [47
 
-] [48
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 49.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [48
 
-] [49
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 58.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [49
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1348,46 +1587,110 @@ LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <8> not available
 Overfull \vbox (4.25722pt too high) detected at line 89
  []
 
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 89.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [50
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [51
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 107.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [51
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [52
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 135.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [52
 
-] [53
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 146.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [53
 
-] [54
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 163.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [54
 
-] [55
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 179.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [55
 
-] [56
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 197.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [56
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [57
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 219.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [57
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [58
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 247.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [58
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
 
- (./lythuyetdothi.vrb) [59
+ (./lythuyetdothi.vrb)
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 268.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [59
 
-]) (./vanh.tex [60
+]) (./vanh.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 21.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [60
 
-] [61
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 37.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [61
 
-] [62
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 54.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [62
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1396,13 +1699,32 @@ Overfull \vbox (4.25722pt too high) detected at line 89
 Overfull \vbox (4.94035pt too high) detected at line 83
  []
 
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 83.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [63
 
-] [64
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 106.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [64
 
-] [65
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 122.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [65
 
-] [66
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 140.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [66
 
 ]
 \openout4 = `lythuyetdothi.vrb'.
@@ -1411,11 +1733,25 @@ Overfull \vbox (4.94035pt too high) detected at line 83
 Overfull \vbox (4.94035pt too high) detected at line 170
  []
 
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 170.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [67
 
-]) (./loichao.tex [68
+]) (./loichao.tex
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 2.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [68
 
-] [69
+]
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg  used on input line 6.
+(pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
+ [69
 
 ])
 \tf@nav=\write5
@@ -1434,18 +1770,18 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 34737 strings out of 467525
- 707489 string characters out of 5423210
- 1424658 words of memory out of 5000000
- 62754 multiletter control sequences out of 15000+600000
+ 34744 strings out of 467525
+ 707579 string characters out of 5423210
+ 1425640 words of memory out of 5000000
+ 62761 multiletter control sequences out of 15000+600000
  770164 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,444b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on lythuyetdothi.pdf (69 pages, 516758 bytes).
+Output written on lythuyetdothi.pdf (69 pages, 739762 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
+ 716 PDF objects out of 1000 (max. 8388607)
  506 compressed objects within 6 object streams
  150 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

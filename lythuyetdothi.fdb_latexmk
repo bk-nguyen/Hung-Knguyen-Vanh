@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1773989686.23099 "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773989691.26924 0
+["pdflatex"] 1773991082.42426 "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" "lythuyetdothi.pdf" "lythuyetdothi" 1773991089.18319 0
   "baitapbfsb1-hung.tex" 1773988978 6273 75bf06e5d379fd044df0efcf658dd75c ""
   "bfs.tex" 1773985281 3966 35d5920614cd3f7b9f21d642c903e3de ""
-  "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773989577 3844 2923b6c30e6fd478c048d3fbd7b06cff ""
+  "bg.jpg" 1773990656 220919 2c4e1ceaf2eeedf74114aa80db7a4d2a ""
+  "c:/Users/KNguyen/Hung-Knguyen-Vanh/lythuyetdothi.tex" 1773991074 3937 f6a42df4711a1b08578293a55c1c45f2 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1773036558 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1773036558 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1773036558 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -296,10 +297,10 @@
   "intro.tex" 1773985281 409 c4380ac68d427bd0069c268549db8184 ""
   "loichao.tex" 1773985281 89 009f0685b988e84307b4ef24488adc9b ""
   "lythuyetcoban.tex" 1773985281 401 833f573541d75ca6028ebff385d3000b ""
-  "lythuyetdothi.aux" 1773989691 14367 0a49296f652efbc7c1e526d8e3697b8f "pdflatex"
-  "lythuyetdothi.nav" 1773989691 7935 468698b8eb00588b41e8201c362f753e "pdflatex"
-  "lythuyetdothi.tex" 1773989577 3844 2923b6c30e6fd478c048d3fbd7b06cff ""
-  "lythuyetdothi.vrb" 1773989690 384 5ec02b3e194c19dd0204fbb9aab2ecfa "pdflatex"
+  "lythuyetdothi.aux" 1773991088 14367 0a49296f652efbc7c1e526d8e3697b8f "pdflatex"
+  "lythuyetdothi.nav" 1773991088 7935 468698b8eb00588b41e8201c362f753e "pdflatex"
+  "lythuyetdothi.tex" 1773991074 3937 f6a42df4711a1b08578293a55c1c45f2 ""
+  "lythuyetdothi.vrb" 1773991088 384 5ec02b3e194c19dd0204fbb9aab2ecfa "pdflatex"
   "matranke.tex" 1773985281 1341 107b9fc2352029092ef8f92b4cfe0698 ""
   "modau.tex" 1773985281 252 f777055cad8aa64bb960dcba58031353 ""
   "tpcuadothi.tex" 1773985281 3488 85a8f437b43f4afd187978de9353e520 ""
