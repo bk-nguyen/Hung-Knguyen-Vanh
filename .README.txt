@@ -1,0 +1,40 @@
+# DỰ ÁN CỦA NHÓM 1: LÝ THUYẾT ĐỒ THỊ
+
+Giới thiệu:
+
+Dự án này được thực hiện bởi 3 người, gồm có nhóm trưởng Bùi Khôi Nguyên và hai thành viên là Nguyễn Việt Hưng, Lê Việt Anh. 
+Dự án tập trung vào việc hệ thống hóa kiến thức lý thuyết đồ thị cơ bản, các thuật toán biểu diễn, tìm kiếm, các bài tập về các phần liên quan và giới thiệu sơ lược về Cây (tree).
+
+==========================================================
+
+# Phần 1: Lý thuyết cơ bản (Bùi Khôi Nguyên)
+
+Hệ thống hóa các định nghĩa từ tài liệu tham khảo.
+
+Giải thích các khái niệm về đồ thị liên thông và các loại đồ thị đặc biệt và các ứng dụng của nó
+
+Đảm bảo phần Markdown trình bày đẹp, dễ đọc.
+
+==========================================================
+
+# Phần 2: Thuật toán DFS - BFS & Bài tập (Nguyễn Việt Hưng)
+
+Giải thích và trực quan hóa đường đi và cách sử dung của 
+Code: Triển khai bằng ngôn ngữ C++, sử dụng thư viện STL (vector, queue, stack).
+
+Bài tập 1: Xe tải của Việt Hưng.
+
+Bài tập 2: Bàn cờ
+
+Yêu cầu: Code phải rõ ràng từng bước, kiến thức phải giải thích dễ hiểu và có minh họa đường đi.
+
+==========================================================
+
+# Phần 3: Biểu diễn đồ thị & Bài tập cơ bản về Cây (Lê Việt Anh)
+
+Biểu diễn: giải thích dễ hiểu về 3 cách biểu diễn: danh sách kề, danh sách cạnh và ma trận kề
+
+Bài tập 1: Đường kính của cây
+Bài tập 2: Đếm số lá
+
+Yêu cầu: Code phải rõ ràng từng bước, kiến thức phải giải thích dễ hiểu và có minh họa đường đi.
