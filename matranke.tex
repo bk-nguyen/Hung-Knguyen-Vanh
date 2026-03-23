@@ -1,0 +1,39 @@
+\begin{frame}{Biểu diễn: Ma trận kề (Adjacency Matrix)}
+    \begin{columns}
+        \begin{column}{0.4\textwidth}
+            Ma trận $A$ kích thước $N \times N$:
+            \begin{itemize}
+                \item $A[i][j] = 1$: Nếu có cạnh nối $i$ và $j$.
+                \item $A[i][j] = 0$: Nếu không có.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.6\textwidth}
+            \centering
+            Đồ thị 3 đỉnh:
+            \[
+            A = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}
+            \]
+            \small (Dòng 1 nối với đỉnh 2, Dòng 2 nối 1 và 3, v.v.)
+        \end{column}
+    \end{columns}
+    \textbf{Nhược điểm:} Tốn bộ nhớ $O(N^2)$, không tối ưu với đồ thị có hàng chục ngàn đỉnh.
+\end{frame}
+
+\begin{frame}[fragile]{Biểu diễn: Ma trận kề}
+    \begin{verbatim}
+// Ma trận kích thước tối đa 100x100
+int adj[100][100]; 
+int main() {
+    int n, m; // số đỉnh, số cạnh
+    cin >> n >> m;
+    
+    for(int i = 0; i < m; i++) {
+        int u, v; cin >> u >> v;
+        // Đồ thị vô hướng: đánh dấu 1 ở cả 2 chiều
+        adj[u][v] = 1;
+        adj[v][u] = 1;
+    }
+    return 0;
+}
+    \end{verbatim}
+\end{frame}
