@@ -1,3 +1,86 @@
+<<<<<<< HEAD
+\section{Thuật toán BFS}
+% Slide 8: BFS Theory
+\begin{frame}{4. BFS: Tìm kiếm theo chiều rộng}
+    \begin{itemize}
+        \item \textbf{Ý Tưởng:} Duyệt theo từng "lớp" vết dầu loang. Thăm hết tất cả các đỉnh kề trực tiếp rồi mới tiến ra xa hơn.
+        \item \textbf{Đặc điểm:} Luôn tìm được đường đi ngắn nhất trong đồ thị không trọng số.
+        \item \textbf{Độ phức tạp:} Thời gian $O(V + E)$.
+    \end{itemize}
+\end{frame}
+
+% Slide 9: BFS Animation (Đã nâng cấp hiệu ứng)
+\begin{frame}{Mô phỏng từng bước BFS}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \centering
+            \begin{tikzpicture}[scale=1.2, every node/.style={node_base}]
+                \node<1>[node_current] (0) at (0,0) {0};
+                \node<2->[node_visited] (0) at (0,0) {0};
+
+                \node<1>[node_base, opacity=0.3] (1) at (1.5, 1) {1};
+                \node<2>[node_current] (1) at (1.5, 1) {1};
+                \node<3->[node_visited] (1) at (1.5, 1) {1};
+
+                \node<1-2>[node_base, opacity=0.3] (3) at (1.5, -1) {3};
+                \node<3>[node_current] (3) at (1.5, -1) {3};
+                \node<4->[node_visited] (3) at (1.5, -1) {3};
+
+                \node<1-3>[node_base, opacity=0.3] (2) at (3, 1) {2};
+                \node<4>[node_current] (2) at (3, 1) {2};
+                \node<5->[node_visited] (2) at (3, 1) {2};
+
+                \node<1-4>[node_base, opacity=0.3] (4) at (3, -1) {4};
+                \node<5>[node_current] (4) at (3, -1) {4};
+                \node<6->[node_visited] (4) at (3, -1) {4};
+
+                % Hiệu ứng loang: Highlight tất cả cạnh kề khi thăm 0
+                \draw<1>[blue, dashed, thick] (0)--(1) (0)--(3); 
+                \draw<2->[gray!50] (0)--(1) (0)--(3);
+                
+                \draw<2>[blue, dashed, thick] (1)--(2);
+                \draw<1,3->[gray!50] (1)--(2);
+
+                \draw<4>[blue, dashed, thick] (2)--(4);
+                \draw<1-3,5->[gray!50] (2)--(4);
+            \end{tikzpicture}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            % Phần Queue giữ nguyên logic của bạn
+            \textbf{Hàng đợi Queue:}\\
+            \begin{tikzpicture}
+                \draw[thick] (0,0.7) -- (3,0.7) (0,0) -- (3,0);
+                \node<1>[stack_box, minimum width=0.7cm] at (0.5, 0.35) {1};
+                \node<1>[stack_box, minimum width=0.7cm] at (1.3, 0.35) {3};
+                \node<2>[stack_box, minimum width=0.7cm] at (0.5, 0.35) {3};
+                \node<2>[stack_box, minimum width=0.7cm] at (1.3, 0.35) {2};
+                \node<3>[stack_box, minimum width=0.7cm] at (0.5, 0.35) {2};
+                \node<4>[stack_box, minimum width=0.7cm] at (0.5, 0.35) {4};
+            \end{tikzpicture}
+            \vspace{0.2cm} \small
+            \only<1>{\\B1: \\-Thăm 0\\ -Đưa đỉnh kề \{1, 3\} vào Queue.}
+            \only<2>{\\B2: \\-Lấy 1 ra thăm. \\-Thêm đỉnh kề 2 vào Queue.}
+            \only<3>{\\B3: \\-Lấy 3 ra thăm. \\-Đỉnh 0 đã được duyệt.}
+            \only<4>{\\B4: \\-Lấy 2 ra thăm. \\-Thêm đỉnh kề 4 vào Queue.}
+            \only<5>{\\B5: \\-Lấy 4 ra thăm. \\-Hoàn thành.}
+            \only<6>{\\Kết quả: \\0 → 1 → 3 → 2 → 4.}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% Slide 10: BFS Code
+\begin{frame}[fragile]{Mã nguồn BFS (C++)}
+\begin{verbatim}
+void bfs(int start_node) {
+    queue<int> q;
+    q.push(start_node);
+    visited[start_node] = true;
+    while (!q.empty()) {
+        int u = q.front(); q.pop();
+        cout << u << " ";
+        for (int v : adj[u]) {
+            if (!visited[v]) {
+=======
 \begin{frame}{Thuật toán BFS (Breadth-First Search)}
     \begin{itemize}
         \item \textbf{Nguyên lý:} Duyệt theo từng lớp, bắt đầu từ đỉnh nguồn, lan rộng ra các đỉnh láng giềng.
@@ -26,6 +109,7 @@ void BFS(int start) {
         cout << u << " ";
         for(int v : adj[u]){
             if(!visited[v]){
+>>>>>>> khoinguyen
                 visited[v] = true;
                 q.push(v);
             }

@@ -1,0 +1,291 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+
+\title{\textbf{Một số bài tập ứng dụng BFS}}
+\date{}
+
+\lstset{
+    language=C++,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    numbers=left,
+    numberstyle=\tiny,
+    frame=single,
+    breaklines=true
+}
+
+\begin{document}
+
+\maketitle
+
+%====================== PROBLEM H ======================
+
+\section*{Problem H}
+
+Một thành phố có n ngôi nhà và m đoạn đường hai chiều nối giữa các ngôi nhà, với mỗi đoạn đường, người ta tính được khối lượng tối đa để xe có thể đi qua mà không gây hư hại cho đoạn đường đó.
+
+Một xe tải cần chở x kg hàng hoá từ ngôi nhà s đến ngôi nhà t. Kiểm tra xem xe tải này có thể thực hiện công việc được không.
+
+\subsection*{Input}
+\begin{itemize}
+\item Dòng đầu tiên chứa năm số nguyên n, m, x, s, t
+\item m dòng tiếp theo, mỗi dòng là ba số nguyên x, y, w thể hiện có đường nối giữa x và y, với khối lượng tối đa là w
+\end{itemize}
+
+\subsection*{Output}
+\begin{itemize}
+\item Nếu đi được từ s đến t, in ra YES, ngược lại in ra NO
+\end{itemize}
+
+\subsection*{Giới hạn}
+\begin{itemize}
+\item $1 \le n, m \le 10^5$
+\item $1 \le s, t \le n$
+\item $1 \le x, y \le n$
+\item $1 \le w \le 10^9$
+\end{itemize}
+
+\subsection*{Ý tưởng}
+Lọc các cạnh có $w \ge x$ và dùng BFS kiểm tra liên thông.
+\subsection*{Code}
+
+\begin{lstlisting}
+#include <bits/stdc++.h>
+using namespace std;
+
+long long n, m, k, s, t;
+vector<long long> adj[1000006];
+long long dps[1000006];
+
+void bfs(long long s) {
+    memset(dps, -1, sizeof(dps));
+    queue<long long> q;
+
+    dps[s] = 0;
+    q.push(s);
+
+    while (!q.empty()) {
+        long long u = q.front();
+        q.pop();
+
+        for (auto v : adj[u]) {
+            if (dps[v] == -1) {
+                dps[v] = dps[u] + 1;
+                q.push(v);
+            }
+        }
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    cin >> n >> m >> k >> s >> t;
+
+    for (int i = 1; i <= m; i++) {
+        long long x, y, w;
+        cin >> x >> y >> w;
+
+        if (w >= k) {
+            adj[x].push_back(y);
+            adj[y].push_back(x);
+        }
+    }
+
+    bfs(s);
+
+    if (dps[t] == -1) cout << "NO";
+    else cout << "YES";
+}
+\end{lstlisting}
+
+%====================== PROBLEM I ======================
+
+\section*{Problem I}
+
+Một thành phố có n ngôi nhà và m đoạn đường hai chiều nối giữa các ngôi nhà, với mỗi đoạn đường, người ta tính được khối lượng tối đa để xe có thể đi qua mà không gây hư hại cho đoạn đường đó.
+
+Một xe tải cần chở hàng hoá từ ngôi nhà s đến ngôi nhà t. Kiểm tra xem khối lượng tối đa của xe tải này là bao nhiêu.
+
+\subsection*{Input}
+\begin{itemize}
+\item Dòng đầu tiên chứa bốn số nguyên n, m, s, t
+\item m dòng tiếp theo, mỗi dòng là ba số nguyên x, y, w thể hiện có đường nối giữa x và y, với khối lượng tối đa là w
+\item Nếu không có hành trình nào thoả mãn thì in ra -1
+\end{itemize}
+
+\subsection*{Output}
+Một số nguyên duy nhất là khối lượng tối đa có thể
+
+\subsection*{Giới hạn}
+\begin{itemize}
+\item $1 \le n, m \le 10^5$
+\item $1 \le s, t \le n$
+\item $1 \le x, y \le n$
+\item $1 \le w \le 10^9$
+\end{itemize}
+
+\subsection*{Ý tưởng}
+Binary search trên đáp án, mỗi lần dùng DFS kiểm tra.
+
+\subsection*{Code}
+
+\begin{lstlisting}
+#include<bits/stdc++.h>
+using namespace std;
+
+bool is_visited[1000006];
+vector<pair<long long,long long>> adj[1000006];
+
+void dfs(long long u,long long x){
+    is_visited[u]=true; 
+    for(auto [v,l]:adj[u]){ 
+        if(!is_visited[v] && l>=x){
+            dfs(v,x);
+        }
+    }
+}
+
+bool check(long long mid,long long s,long long t){
+    memset(is_visited,false,sizeof(is_visited));
+    dfs(s,mid);
+    return is_visited[t];
+}
+
+long long tknp(long long s,long long t){
+    long long l=1,r=1e9,kq=-1;
+    while(l<=r){
+        long long mid=(l+r)/2;
+        if(check(mid,s,t)){
+            kq=mid;
+            l=mid+1;
+        } else {
+            r=mid-1;
+        }
+    }
+    return kq;
+}
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n,m,s,t;
+    cin>>n>>m>>s>>t;
+
+    for(long long i=0;i<m;i++){
+        long long x,y,l;
+        cin>>x>>y>>l;
+        adj[x].push_back({y,l});
+        adj[y].push_back({x,l});
+    }
+
+    cout<<tknp(s,t);
+}
+\end{lstlisting}
+
+%====================== PROBLEM J ======================
+
+\section*{Problem J}
+
+Xét bàn cờ vua có kích thước n × n. Các dòng được đánh số từ 1 đến n, từ trên xuống dưới. Các cột được đánh số từ 1 đến n, từ trái qua phải. Ô nằm trên giao của dòng i và cột j được gọi là ô (i, j).
+
+Trên bàn cờ có $m$ ($0 \le m \le n^2 - 2$) quân cờ. 
+Với $m > 0$, quân cờ thứ $i$ ở ô $(r_i, c_i)$, $i = 1, \dots, m$. 
+Không có hai quân cờ nào ở cùng vị trí.
+
+Trong số các ô còn lại của bàn cờ, tại ô (p, q) có 1 quân xe. Mỗi một nước đi, từ vị trí đang đứng thì quân xe chỉ có thể di chuyển đến được những ô trên cùng hàng hoặc cùng cột mà trên đường đi không phải đi qua các ô đã có quân.
+
+Cần phải đưa quân xe từ ô xuất phát (p, q) về ô đích (s, t). Giả thiết là ô đích không có quân cờ.
+
+\subsection*{Input}
+\begin{itemize}
+\item Dòng đầu tiên chứa 6 số nguyên n, m, p, q, s, t
+\item m dòng tiếp theo là vị trí các quân cờ
+\end{itemize}
+
+\subsection*{Output}
+Một dòng duy nhất là số nước đi tìm được. Nếu không đi được, in ra -1
+
+\subsection*{Giới hạn}
+\begin{itemize}
+\item $1 \le n \le 200$
+\item $0 \le m \le n^2 - 2$
+\end{itemize}
+
+\subsection*{Ý tưởng}
+BFS trên bàn cờ với di chuyển kiểu quân xe.
+
+\subsection*{Code}
+
+\begin{lstlisting}
+#include<bits/stdc++.h>
+using namespace std;
+
+long long dps[1003][1003], mtk[1003][1003];
+
+void bfs(int x1,int y1,int s,int t,int n){
+    memset(dps,-1,sizeof(dps));
+    queue<pair<int,int>> q;
+
+    q.push({x1,y1});
+    dps[x1][y1]=0;
+
+    while(!q.empty()){
+        int u=q.front().first;
+        int v=q.front().second;
+        q.pop(); 
+
+        const int dx[]={0,0,1,-1};
+        const int dy[]={1,-1,0,0};
+
+        for(int i=0;i<4;i++){
+            int x=u,y=v;
+
+            while(true){
+                x+=dx[i];
+                y+=dy[i];
+
+                if(x<1 || x>n || y<1 || y>n || mtk[x][y]==1) break;
+
+                if(dps[x][y]==-1){
+                    dps[x][y]=dps[u][v]+1;
+                    q.push({x,y});
+                }
+            }
+        }
+    }
+
+    cout<<dps[s][t];
+}
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n,m,p,q,s,t;
+    cin>>n>>m>>p>>q>>s>>t;
+
+    for(int i=1;i<=m;i++){
+        long long x,y;
+        cin>>x>>y;
+        mtk[x][y]=1;
+    }
+
+    bfs(p,q,s,t,n);
+}
+\end{lstlisting}
+
+\end{document}

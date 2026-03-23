@@ -1,6 +1,87 @@
 \documentclass{beamer}
 \usepackage{bookmark}
 \usepackage[T5]{fontenc}
+<<<<<<< HEAD
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usetheme{Madrid}
+\usepackage{lmodern} % Fix font shape warning
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shadows}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usetheme{moloch}
+\tcbuselibrary{skins, breakable}
+% Box style chung
+\tcbset{
+    mybox/.style={
+        colback=gray!10,
+        colframe=gray!80,
+        width=\textwidth,
+        arc=8mm,
+        boxrule=0pt,
+        enhanced,
+        drop shadow,
+        left=6mm,
+        right=6mm,
+        top=3mm,
+        bottom=3mm
+    }
+}
+
+% ===== TikZ styles =====
+
+\tikzset{
+node_base/.style={
+circle,
+draw,
+minimum size=8mm,
+font=\bfseries,
+thick,
+fill=white
+},
+node_current/.style={
+fill=orange!80,
+text=white
+},
+node_visited/.style={
+fill=green!40
+},
+stack_box/.style={
+rectangle,
+draw,
+minimum width=1.5cm,
+minimum height=0.6cm,
+fill=blue!10
+}
+}
+
+%========================
+
+% ===== C++ style =====
+\lstset{
+language=C++,
+basicstyle=\ttfamily\scriptsize,
+keywordstyle=\color{blue}\bfseries,
+commentstyle=\color{green!50!black},
+stringstyle=\color{red},
+backgroundcolor=\color{gray!5},
+frame=single,
+breaklines=true
+}
+%========================
+
+% --- Định nghĩa màu sắc ---
+\definecolor{mainblue}{RGB}{120, 90, 255}   % tím sáng (primary)
+\definecolor{footgray}{RGB}{40, 40, 50}     % nền footer (xám đậm)
+\definecolor{footred}{RGB}{255, 120, 180}   % hồng accent
+\definecolor{mainred}{RGB}{200, 80, 255}    % tím hồng (highlight)
+\definecolor{maincolor}{RGB}{120, 90, 255}    % tím hồng (highlight)
+\definecolor{accent}{RGB}{200, 80, 255}    % tím hồng (highlight)
+=======
 \usepackage[utf8]{vietnam}
 \usepackage{lmodern} % Fix font shape warning
 \usepackage{amsmath}
@@ -16,6 +97,7 @@
 \definecolor{footred}{RGB}{255,50,50}
 \definecolor{mainred}{RGB}{220,20,60} % Màu đỏ cho nút được chọn
 
+>>>>>>> khoinguyen
 % --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
 \setbeamertemplate{footline}{
   \leavevmode%
@@ -78,9 +160,14 @@
 % Slide 1: Nguyên lý
 \input{bfs.tex}
 
+%test việt hưng 
+%=================
+
 % --- Phần 4 ---
 \input{ungdung.tex}
+
+\input{baitapbfsb1-hung.tex}
 %==================
 \input{loichao.tex}
-
+\input{hungdeptrai.tex}
 \end{document}
