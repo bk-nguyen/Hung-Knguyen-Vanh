@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  23 MAR 2026 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.9)  23 MAR 2026 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,15 +1157,15 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count391
- (./lythuyetdothi.nav) (./intro.tex
-<vanh.jpg, id=37, 959.585pt x 1280.785pt>
-File: vanh.jpg Graphic file (type jpg)
-<use vanh.jpg>
-Package pdftex.def Info: vanh.jpg  used on input line 29.
+ (./lythuyetdothi.nav) (./FILE.TEX/intro.tex
+<FILEJPG/vanh.jpg, id=37, 959.585pt x 1280.785pt>
+File: FILEJPG/vanh.jpg Graphic file (type jpg)
+<use FILEJPG/vanh.jpg>
+Package pdftex.def Info: FILEJPG/vanh.jpg  used on input line 29.
 (pdftex.def)             Requested size: 364.19218pt x 273.13548pt.
  [1
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-t5.enc} <./vanh.jpg>]) (./modau.tex
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-t5.enc} <./FILEJPG/vanh.jpg>]) (./FILE.TEX/modau.tex
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 1.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1202,122 +1202,122 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <8> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <6> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 1.
-<bg.jpg, id=49, 1445.4pt x 813.0375pt>
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+<FILEJPG/bg.jpg, id=49, 1445.4pt x 813.0375pt>
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [2
 
- <./bg.jpg>]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 9.
+ <./FILEJPG/bg.jpg>]
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 9.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [3
 
-{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]) (./viduthucte.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 56.
+{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]) (./FILE.TEX/viduthucte.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 56.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [4
 
-{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./lythuyetcoban.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./FILE.TEX/lythuyetcoban.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [5
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 12.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 12.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [6
 
-]) (./tpcuadothi.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/tpcuadothi.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [7
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 29.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 29.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [8
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 67.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 67.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [9
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 101.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 101.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [10
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 132.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 132.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [11
 
-]) (./duongdi.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/duongdi.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [12
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 12.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 12.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [13
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 24.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 24.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [14
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 36.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 36.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [15
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 48.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 48.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [16
 
-]) (./caidatcpp-danhsachke.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/caidatcpp-danhsachke.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [17
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 23.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 23.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [18
 
@@ -1329,16 +1329,16 @@ LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 3.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 40.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 40.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [19
 
-]) (./danhsachcanh.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 27.
+]) (./FILE.TEX/danhsachcanh.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 27.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [20
 
@@ -1346,16 +1346,16 @@ Package pdftex.def Info: bg.jpg  used on input line 27.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 40.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 40.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [21
 
-]) (./matranke.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 20.
+]) (./FILE.TEX/matranke.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 20.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [22
 
@@ -1363,16 +1363,16 @@ Package pdftex.def Info: bg.jpg  used on input line 20.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 39.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 39.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [23
 
-]) (./dfs.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/dfs.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [24
 
@@ -1393,9 +1393,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 17.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <9> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 17.
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 17.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 17.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [25
 
@@ -1403,58 +1403,58 @@ Package pdftex.def Info: bg.jpg  used on input line 17.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 34.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 34.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [26
 
-]) (./bfs.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/bfs.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [27
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 9.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 9.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [28
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [29
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [30
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [31
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [32
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [33
 
@@ -1463,9 +1463,9 @@ LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 6
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 68.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 68.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [34
 
@@ -1473,107 +1473,107 @@ Package pdftex.def Info: bg.jpg  used on input line 68.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 89.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 89.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [35
 
-]) (./tree.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/tree.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [36
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 26.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 26.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [37
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 38.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 38.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [38
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 59.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 59.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [39
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 90.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 90.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [40
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 107.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 107.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [41
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 126.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 126.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [42
 
-]) (./ungdung.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 2.
+]) (./FILE.TEX/ungdung.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 2.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [43
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 10.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 10.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [44
 
-]) (./baitapbfsb1-hung.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 1.
+]) (./FILE.TEX/baitapbfsb1-hung.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 1.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [45
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 12.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 12.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [46
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 31.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 31.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [47
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 49.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 49.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [48
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 58.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 58.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [49
 
@@ -1587,9 +1587,9 @@ LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <8> not available
 Overfull \vbox (4.25722pt too high) detected at line 89
  []
 
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 89.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 89.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [50
 
@@ -1597,9 +1597,9 @@ Package pdftex.def Info: bg.jpg  used on input line 89.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 107.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 107.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [51
 
@@ -1607,37 +1607,37 @@ Package pdftex.def Info: bg.jpg  used on input line 107.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 135.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 135.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [52
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 146.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 146.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [53
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 163.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 163.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [54
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 179.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 179.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [55
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 197.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 197.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [56
 
@@ -1645,9 +1645,9 @@ Package pdftex.def Info: bg.jpg  used on input line 197.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 219.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 219.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [57
 
@@ -1655,9 +1655,9 @@ Package pdftex.def Info: bg.jpg  used on input line 219.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 247.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 247.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [58
 
@@ -1665,30 +1665,30 @@ Package pdftex.def Info: bg.jpg  used on input line 247.
 \openout4 = `lythuyetdothi.vrb'.
 
  (./lythuyetdothi.vrb)
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 268.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 268.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [59
 
-]) (./vanh.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 21.
+]) (./FILE.TEX/vanh.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 21.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [60
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 37.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 37.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [61
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 54.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 54.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [62
 
@@ -1699,30 +1699,30 @@ Package pdftex.def Info: bg.jpg  used on input line 54.
 Overfull \vbox (4.94035pt too high) detected at line 83
  []
 
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 83.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 83.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [63
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 106.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 106.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [64
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 122.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 122.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [65
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 140.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 140.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [66
 
@@ -1733,23 +1733,23 @@ Package pdftex.def Info: bg.jpg  used on input line 140.
 Overfull \vbox (4.94035pt too high) detected at line 170
  []
 
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 170.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 170.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
 [67
 
-]) (./loichao.tex
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 2.
+]) (./FILE.TEX/loichao.tex
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 2.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [68
 
 ]
-File: bg.jpg Graphic file (type jpg)
-<use bg.jpg>
-Package pdftex.def Info: bg.jpg  used on input line 6.
+File: FILEJPG/bg.jpg Graphic file (type jpg)
+<use FILEJPG/bg.jpg>
+Package pdftex.def Info: FILEJPG/bg.jpg  used on input line 6.
 (pdftex.def)             Requested size: 364.19421pt x 273.14153pt.
  [69
 
@@ -1770,9 +1770,9 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 34744 strings out of 467525
- 707579 string characters out of 5423210
- 1425640 words of memory out of 5000000
+ 34745 strings out of 467525
+ 708438 string characters out of 5423210
+ 1425648 words of memory out of 5000000
  62761 multiletter control sequences out of 15000+600000
  770164 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
