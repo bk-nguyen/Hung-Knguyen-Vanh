@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \begin{frame}{Google Maps – Tìm đường đi ngắn nhất}
 
 \begin{columns}
@@ -54,3 +55,51 @@ Sử dụng \textbf{Dijkstra} để tìm đường đi ngắn nhất
 \end{columns}
 
 \end{frame}
+=======
+\section{Ví dụ thực tế}
+\begin{frame}{Google Maps: Tìm đường đi ngắn nhất}
+\begin{columns}
+    \begin{column}{0.5\textwidth}
+        \textbf{Bài toán:} Tìm đường đi ngắn nhất từ \textbf{Điểm A} đến \textbf{Điểm B}.
+        \begin{itemize}
+            \item Các giao lộ $\rightarrow$ Đỉnh (Vertices)
+            \item Các con đường $\rightarrow$ Cạnh (Edges)
+            \item Thời gian/Khoảng cách $\rightarrow$ Trọng số (Weights)
+        \end{itemize}
+        Thuật toán Dijkstra thường được sử dụng cho bài toán này.
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \centering
+        \begin{tikzpicture}[
+            node_style/.style={circle, draw, fill=mainblue!20, minimum size=7mm, inner sep=1pt, font=\small},
+            edge_style/.style={draw, thick, gray!60},
+            path_style/.style={draw, green!70!black, ultra thick, -{Stealth[length=3mm, width=2mm]}},
+            start_node/.style={fill=red!60, text=white},
+            end_node/.style={fill=green!60, text=white},
+            pathgreen/.style={}
+        ]
+            % Các đỉnh
+            \node[node_style, start_node] (A) at (0,0) {A};
+            \node[node_style] (X) at (1.5,1) {X};
+            \node[node_style] (Y) at (1.5,-1) {Y};
+            \node[node_style] (Z) at (3,0.5) {Z};
+            \node[node_style, end_node] (B) at (4,0) {B};
+
+            % Các cạnh
+            \draw[edge_style] (A) -- (X) node[midway, above] {\tiny 5};
+            \draw[edge_style] (A) -- (Y) node[midway, below] {\tiny 3};
+            \draw[edge_style] (X) -- (Z) node[midway, above] {\tiny 2};
+            \draw[edge_style] (Y) -- (Z) node[midway, below] {\tiny 4};
+            \draw[edge_style] (Y) -- (B) node[midway, below] {\tiny 6};
+            \draw[edge_style] (Z) -- (B) node[midway, above] {\tiny 3};
+            
+            % Đường đi ngắn nhất (ví dụ)
+            \draw[path_style] (A) to node[midway, above left, pos=0.3]{\tiny 3} (Y);
+            \draw[path_style] (Y) to node[midway, below right, pos=0.7]{\tiny 4} (Z);
+            \draw[path_style] (Z) to node[midway, above, pos=0.5]{\tiny 3} (B);
+
+        \end{tikzpicture}
+    \end{column}
+\end{columns}
+\end{frame}
+>>>>>>> khoinguyen

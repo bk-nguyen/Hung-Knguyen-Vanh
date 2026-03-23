@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \section{Thuật toán BFS}
 % Slide 8: BFS Theory
 \begin{frame}{4. BFS: Tìm kiếm theo chiều rộng}
@@ -79,6 +80,36 @@ void bfs(int start_node) {
         cout << u << " ";
         for (int v : adj[u]) {
             if (!visited[v]) {
+=======
+\begin{frame}{Thuật toán BFS (Breadth-First Search)}
+    \begin{itemize}
+        \item \textbf{Nguyên lý:} Duyệt theo từng lớp, bắt đầu từ đỉnh nguồn, lan rộng ra các đỉnh láng giềng.
+        \item \textbf{Cấu trúc dữ liệu:} Sử dụng \textbf{Hàng đợi (Queue)} theo cơ chế FIFO (Vào trước - Ra trước).
+        \item \textbf{Các bước:}
+        \begin{enumerate}
+            \item Đưa đỉnh nguồn vào Queue và đánh dấu đã thăm.
+            \item Lặp khi Queue không rỗng:
+            \begin{itemize}
+                \item Lấy đỉnh $u$ ra khỏi Queue.
+                \item Xét các đỉnh $v$ kề với $u$: Nếu chưa thăm, đưa $v$ vào Queue và đánh dấu.
+            \end{itemize}
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+% Slide 2: Code C++
+\begin{frame}[fragile]{Cài đặt BFS với C++}
+\begin{verbatim}
+void BFS(int start) {
+    queue<int> q;
+    q.push(start);
+    visited[start] = true;
+    while(!q.empty()){
+        int u = q.front(); q.pop();
+        cout << u << " ";
+        for(int v : adj[u]){
+            if(!visited[v]){
+>>>>>>> khoinguyen
                 visited[v] = true;
                 q.push(v);
             }

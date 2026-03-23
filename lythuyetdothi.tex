@@ -1,6 +1,7 @@
 \documentclass{beamer}
 \usepackage{bookmark}
 \usepackage[T5]{fontenc}
+<<<<<<< HEAD
 \usepackage[utf8]{inputenc}
 \usepackage[vietnamese]{babel}
 \usetheme{Madrid}
@@ -80,6 +81,23 @@ breaklines=true
 \definecolor{mainred}{RGB}{200, 80, 255}    % tím hồng (highlight)
 \definecolor{maincolor}{RGB}{120, 90, 255}    % tím hồng (highlight)
 \definecolor{accent}{RGB}{200, 80, 255}    % tím hồng (highlight)
+=======
+\usepackage[utf8]{vietnam}
+\usepackage{lmodern} % Fix font shape warning
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usetheme{Madrid}
+
+% --- Định nghĩa màu sắc ---
+\definecolor{mainblue}{RGB}{0, 32, 96}
+\definecolor{footgray}{RGB}{108,113,197}
+\definecolor{footred}{RGB}{255,50,50}
+\definecolor{mainred}{RGB}{220,20,60} % Màu đỏ cho nút được chọn
+
+>>>>>>> khoinguyen
 % --- Cấu hình Footer (Bo tròn & Thông tin động) ---a
 \setbeamertemplate{footline}{
   \leavevmode%
@@ -151,5 +169,4 @@ breaklines=true
 \input{baitapbfsb1-hung.tex}
 %==================
 \input{loichao.tex}
-\input{hungdeptrai.tex}
 \end{document}
