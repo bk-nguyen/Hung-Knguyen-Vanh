@@ -1,0 +1,268 @@
+\section{Bài tập}
+
+\begin{frame}
+\centering
+\vspace{2cm}
+
+{\Huge \textbf{\color{mainblue}PHẦN BÀI TẬP}}
+
+\vspace{0.5cm}
+{\large Luyện tập áp dụng BFS}
+
+\end{frame}
+\begin{frame}{Bài 1}
+\begin{center}
+\textbf{Xe tải của Việt Hưng}
+\end{center}
+{\small
+Một thành phố có $n$ ngôi nhà và $m$ đoạn đường hai chiều nối giữa các ngôi nhà, với mỗi đoạn đường, người ta tính được khối lượng tối đa để xe có thể đi qua mà không gây hư hại cho đoạn đường đó.
+
+Xe tải của Hưng cần chở $x$ kg hàng hoá từ ngôi nhà $s$ đến ngôi nhà $t$. Kiểm tra xem Hưng có thể thực hiện công việc được không.
+}
+
+\vspace{0.4cm}
+
+\textbf{Input}
+\begin{itemize}
+\item Dòng đầu tiên chứa năm số nguyên $n, m, x, s, t$
+\item $m$ dòng tiếp theo, mỗi dòng là ba số nguyên $x, y, w$
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Bài 1}
+
+\textbf{Output}
+\begin{itemize}
+\item Nếu đi được từ $s$ đến $t$, in ra YES, ngược lại in ra NO
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Giới hạn}
+\begin{itemize}
+\item $1 \le n, m \le 10^5$
+\item $1 \le s, t \le n$
+\item $1 \le x, y \le n$
+\item $1 \le w \le 10^9$
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Bài 1}
+
+\textbf{Ý tưởng}
+
+\vspace{0.4cm}
+
+Lọc các cạnh có $w \ge x$ và dùng BFS kiểm tra liên thông.
+
+\end{frame}
+\begin{frame}[fragile]{Bài 1}
+
+{\large \color{accent}\textbf{Code}}
+
+\vspace{0.3cm}
+\hrule
+\vspace{0.4cm}
+
+\begin{lstlisting}
+#include<bits/stdc++.h>
+using namespace std;
+
+bool is_visited[1000006];
+vector<pair<long long,long long>> adj[1000006];
+
+void dfs(long long u,long long x){
+    is_visited[u]=true; 
+    for(auto [v,l]:adj[u]){ 
+        if(!is_visited[v] && l>=x){
+            dfs(v,x);
+        }
+    }
+}
+
+bool check(long long mid,long long s,long long t){
+    memset(is_visited,false,sizeof(is_visited));
+    dfs(s,mid);
+    return is_visited[t];
+}
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]{Bài 1}
+\begin{lstlisting}
+long long tknp(long long s,long long t){
+    long long l=1,r=1e9,kq=-1;
+    while(l<=r){
+        long long mid=(l+r)/2;
+        if(check(mid,s,t)){
+            kq=mid;
+            l=mid+1;
+        } else {
+            r=mid-1;
+        }
+    }
+    return kq;
+}
+
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]{Bài 1}
+\begin{lstlisting}
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n,m,s,t;
+    cin>>n>>m>>s>>t;
+    for(long long i=0;i<m;i++){
+        long long x,y,l;
+        cin>>x>>y>>l;
+        adj[x].push_back({y,l});
+        adj[y].push_back({x,l});
+    }
+
+    cout<<tknp(s,t);
+}
+\end{lstlisting}
+
+%===================================
+
+
+%===================================
+
+
+
+
+\end{frame}
+\begin{frame}{Bài 2}
+\begin{center}
+\textbf{Bàn cờ}
+\end{center}
+{\small
+Xét bàn cờ vua có kích thước $n \times n$. Các dòng được đánh số từ 1 đến $n$, từ trên xuống dưới. Các cột được đánh số từ 1 đến $n$, từ trái qua phải. Ô nằm trên giao của dòng $i$ và cột $j$ được gọi là ô $(i, j)$.
+
+Trên bàn cờ có $m$ ($0 \le m \le n^2 - 2$) quân cờ. Với $m > 0$, quân cờ thứ $i$ ở ô $(r_i, c_i)$, $i = 1, \dots, m$. Không có hai quân cờ nào ở cùng vị trí.
+}
+
+\end{frame}
+\begin{frame}{Bài 2}
+
+{\small
+Trong số các ô còn lại của bàn cờ, tại ô $(p, q)$ có 1 quân xe. Mỗi một nước đi, từ vị trí đang đứng thì quân xe chỉ có thể di chuyển đến được những ô trên cùng hàng hoặc cùng cột mà trên đường đi không phải đi qua các ô đã có quân.
+
+Cần phải đưa quân xe từ ô xuất phát $(p, q)$ về ô đích $(s, t)$. Giả thiết là ô đích không có quân cờ.
+}
+
+\vspace{0.4cm}
+
+\textbf{Input}
+\begin{itemize}
+\item Dòng đầu tiên chứa 6 số nguyên $n, m, p, q, s, t$
+\item $m$ dòng tiếp theo là vị trí các quân cờ
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Bài 2}
+
+\textbf{Output}
+\begin{itemize}
+\item Một số nguyên là số nước đi ít nhất. Nếu không đi được, in ra $-1$
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Giới hạn}
+\begin{itemize}
+\item $1 \le n \le 200$
+\item $0 \le m \le n^2 - 2$
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Bài 2}
+
+\textbf{Ý tưởng}
+
+\vspace{0.4cm}
+
+\begin{itemize}
+\item Xem mỗi ô là một đỉnh
+\item BFS trên ma trận
+\item Từ mỗi ô, đi theo 4 hướng như quân xe
+\item Dừng khi gặp biên hoặc quân cản
+\end{itemize}
+
+\vspace{0.4cm}
+
+\textbf{\color{maincolor}Bản chất:} BFS trên lưới với bước đi đặc biệt
+
+\end{frame}
+\begin{frame}[fragile]{Bài 2 - Code (1/2)}
+
+\begin{lstlisting}
+#include<bits/stdc++.h>
+using namespace std;
+
+long long dps[1003][1003], mtk[1003][1003];
+
+void bfs(int x1,int y1,int s,int t,int n){
+    memset(dps,-1,sizeof(dps));
+    queue<pair<int,int>> q;
+
+    q.push({x1,y1});
+    dps[x1][y1]=0;
+
+    while(!q.empty()){
+        int u=q.front().first;
+        int v=q.front().second;
+        q.pop();
+\end{lstlisting}
+
+\end{frame}
+\begin{frame}[fragile]{Bài 2 - Code (2/2)}
+
+\begin{lstlisting}
+        const int dx[]={0,0,1,-1};
+        const int dy[]={1,-1,0,0};
+
+        for(int i=0;i<4;i++){
+            int x=u,y=v;
+
+            while(true){
+                x+=dx[i];
+                y+=dy[i];
+
+                if(x<1 || x>n || y<1 || y>n || mtk[x][y]==1) break;
+
+                if(dps[x][y]==-1){
+                    dps[x][y]=dps[u][v]+1;
+                    q.push({x,y});
+                }
+            }
+        }
+    }
+
+    cout<<dps[s][t];
+}
+\end{lstlisting}
+
+\end{frame}
+\begin{frame}[fragile]{Bài 2 - Code (3/3)}
+
+\begin{lstlisting}
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n,m,p,q,s,t;
+    cin>>n>>m>>p>>q>>s>>t;
+
+    for(int i=1;i<=m;i++){
+        long long x,y;
+        cin>>x>>y;
+        mtk[x][y]=1;
+    }
+
+    bfs(p,q,s,t,n);
+}
+\end{lstlisting}
+
+\end{frame}
